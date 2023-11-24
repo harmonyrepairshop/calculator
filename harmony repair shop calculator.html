@@ -190,7 +190,7 @@
 
             if (vehicleType in repairData && engineDamageLevel in repairData[vehicleType] && bodyDamageLevel in repairData[vehicleType]) {
                 var repairCost = repairData[vehicleType][engineDamageLevel];
-                repairCost += doors * 30; // Assume each additional item costs $30
+                repairCost += doors * 120; // Assume each additional item costs $30
 
                 // Add tire and window costs
                 repairCost += tire * tireCosts;
